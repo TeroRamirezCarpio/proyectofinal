@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      href="style.css"
+    />
+    
+    <!-- Iconos Bs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- MI CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Reservas - Hospedaje en Salta</title>
+  </head>
+  <body>
+    <header>
+        <!-- NAV BAR -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">Home<span class="text-primary">Travel</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav ms-auto my-4 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
+            >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/pages/reservas.html">Reservas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Lugares Recomendados
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/pages/lugaresrecomendados.html">Restaurantes</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="/pages/lugaresrecomendados.html">Museos</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="/pages/lugaresrecomendados.html">Excursiones</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/pages/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/pages/contacto.html">Contactanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Seccion OPINIONES -->
+    <h2 class="text-center text-dark mt-4">Que dicen nuestros clientes...</h2>
+        <!-- <p class="text-center text-dark bg-ligth">
+          Vas a encontras los comentarios de nuestros huespedes sobre su estadia en nuestros hospedajes.
+        </p> -->
+  <section id="opiniones" class="p-3 bg succes">
+      <div class="container ">
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="card bg-ligth">
+              <div class="card-body text-center">
+                <img src="/img/maxi.jpg" alt="" class="img-fluid w-50 d-none d-sm-block rounded-circle" />
+                <h3 class="card-title mb-3">Maxi Ramirez</h3>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatibus possimus ratione corrupti, nostrum ex totam.
+                </p>
+                <i class="bi bi-star-fill mx-1"></i>
+                <i class="bi bi-star-fill mx-1"></i>
+                <i class="bi bi-star-fill mx-1"></i>
+                <i class="bi bi-star-fill mx-1"></i>
+                <i class="bi bi-star-fill mx-1"></i>
+              </div>
+            </div>
+          </div>
+        
+
+<!-- 2da card -->
+            <div class="col-md-6 col-lg-4">
+              <div class="card bg-body-tertiary">
+                <div class="card-body text-center">
+                  <img src="/img/mayor.jpg" alt="" class="img-fluid w-50 d-none d-sm-block rounded-circle" />
+                  <h3 class="card-title mb-3">Jorge Giachetti</h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Voluptatibus possimus ratione corrupti, nostrum ex totam.
+                  </p>
+                  <i class="bi bi-star-fill mx-1"></i>
+                  <i class="bi bi-star-fill mx-1"></i>
+                  <i class="bi bi-star-fill mx-1"></i>
+                  <i class="bi bi-star-fill mx-1"></i>
+                  <i class="bi bi-star-fill mx-1"></i>
+                  
+                </div>
+              </div>
+            </div>
+        
+<!-- 3ra card -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card bg-ligth">
+            <div class="card-body text-center">
+              <img src="/img/joven.jpg" alt="" class="img-fluid w-50 d-none d-sm-block rounded-circle" />
+              <h3 class="card-title mb-3">Tomas Podzun</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatibus possimus ratione corrupti, nostrum ex totam.
+              </p>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-fill mx-1"></i>
+              <i class="bi bi-star-half mx-1"></i>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </section>
+
+  <!-- Reservas -->
+  <h1 class="text-center text-dark mt-4 mb-5">Reservas</h1>
+  <section>
+    <div>
+    <button class="mb-3">Check in</button>
+    <textarea name="" id="" cols="10" rows="1"></textarea>
+  </div>
+    <div>
+    <button class="mb-3">Check out</button>
+    <textarea name="" id="" cols="10" rows="1"></textarea>
+    </div>  
+    <div>
+      <iframe
+        src="https://calendar.google.com/calendar/embed?src=cb18bb0c3d8b6d8799fc4b7f4e3b15f181a3a453cd9cffff296357f35ae54834%40group.calendar.google.com&ctz=America%2FArgentina%2FBuenos_Aires"
+        style="border: 0"
+        width="800"
+        height="600"
+        frameborder="0"
+        scrolling="no"
+        class="container-fluid mb-4"
+      ></iframe>
+    </div>
+    <div>
+      <iframe
+        src="https://calendar.google.com/calendar/embed?src=cb18bb0c3d8b6d8799fc4b7f4e3b15f181a3a453cd9cffff296357f35ae54834%40group.calendar.google.com&ctz=America%2FArgentina%2FBuenos_Aires"
+        style="border: 0"
+        width="800"
+        height="600"
+        frameborder="0"
+        scrolling="no"
+        class="container-fluid mb-4"
+      ></iframe>
+    </div>
+  </section>
+</div>
+
+
+
+
+
+
+     <!--COMIENZA EL FOOTER-->
+     <footer class="footer pt-1 bg-dark">
+        <div class="footer-sm text-white">
+          <div class="container">
+            <div class="row py-1 text-center text-white">
+              <div class="col-lg-5 col-md-6 mb-md-0">Nos podes ubicar en</div>
+              <div class="col-lg-7 col-md-6">
+                <a href="https://goo.gl/maps/Eghovd2Uxnhz23rC7"><i class="bi bi-geo-alt-fill text-white mx-2"></i></a>
+                <a href="#"><i class="bi bi-facebook text-white mx-2"></i></a>
+              <a href="#"><i class="bi bi-instagram text-white mx-2"></i></a>
+              <a href="#"><i class="bi bi-whatsapp text-white mx-2"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom py-1">
+          <div class="container">
+            <div class="row text-center text-white">
+              <div class="col-12">
+                <div class="footer-bottom__copy">
+                  &copy; Copyright 2023 <a href="/index.html">HomeTravel</a> | Creada por
+                  <a href="https://github.com/TeroRamirezCarpio">MRC</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+  
+
+    <!-- JS de Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Iconos Fontawesaome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- MI Css -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Contactanos</title>
+  </head>
+  <body class="body">
+    <!-- Header -->
+    <header class="header">
+      <a href="../index.html">
+        <img src="/img/logomaschico.png" alt="logo" class="logo" />
+      </a>
+      <nav class="nav">
+        <ul>
+          <li><a class="nav_item" href="../index.html">Inicio</a></li>
+          <li><a class="nav_item" href="reservas.html">Reservas</a></li>
+          <li>
+            <a class="nav_item" href="lugaresrecomendados.html"
+              >Lugares Recomendados</a
+            >
+          </li>
+          <li><a class="nav_item" href="galeria.html">Galeria</a></li>
+          <li><a class="nav_item" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <button>RESERVAR</button>
+    </header>
+    <section>
+      <form action="">
+        <fieldset>
+          <legend>Contacto</legend>
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" />
+          </div>
+          <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" />
+          </div>
+          Hombre
+          <input type="radio" name="sexo" value="Hombre" />
+          Mujer
+          <input type="radio" name="sexo" value="Mujer" />
+
+          <div>
+            <label for="Edad">Edad:</label>
+            <select name="Edad" id="Edad" value="Edad">
+              <option value="18-35">18-35</option>
+              <option value="36-55">36-55</option>
+              <option value="56-65">56-65</option>
+            </select>
+          </div>
+
+          <textarea name="Mensaje" id="mensaje" cols="30" rows="10"> </textarea>
+          <div>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpiar" />
+          </div>
+        </fieldset>
+      </form>
+    </section>
+
+    <!-- Aca empieza el footer -->
+    <footer class="footer">
+      <div>
+        <p class="texto_footer">San Juan 573 - Salta</p>
+        <p class="texto_footer">Cp:4400 - Argentina</p>
+        <a href="https://goo.gl/maps/wpCQCm8PXFMiigNr8" class="icono_location"
+          ><i class="fa-sharp fa-solid fa-location-dot"></i
+        ></a>
+      </div>
+      <div>
+        <a href="" class="icono_facebook botones_redes"
+          ><i class="fa-brands fa-square-facebook" style="color: #0045bd"> </i
+        ></a>
+      </div>
+      <div>
+        <a href="" class="icono_instagran botones_redes"
+          ><i class="fa-brands fa-instagram" style="color: #0045bd"> </i
+        ></a>
+      </div>
+      <div>
+        <a href="" class="icono_whatsapp botones_redes"
+          ><i class="fa-brands fa-whatsapp" style="color: #0045bd"> </i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
