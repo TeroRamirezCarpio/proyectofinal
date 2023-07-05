@@ -4,22 +4,15 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+li {
+  margin-right: 1.5rem;
 
-  ul {
-    list-style: none;
-    display: flex;
+  a {
+    color: chocolate;
 
-    li {
-      margin-right: 2.5rem;
-
-      a {
-        text-decoration: none;
-        color: chocolate;
-
-        &:hover {
-          color: cornflowerblue;
-        }
-      }
+    &:hover {
+      color: cornflowerblue;
     }
   }
 }

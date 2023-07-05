@@ -4,22 +4,14 @@
   box-sizing: border-box;
 }
 
-#logosaltaods {
-  width: 200px;
-}
-
-.footer-container {
+.footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.social-icons a {
+.footer-bottom {
   margin-left: 10px;
-}
-
-.social-icons img {
-  width: 30px;
 }
 
 nav {
@@ -29,18 +21,14 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-nav ul {
-  list-style: none;
-  display: flex;
+
+li {
+  margin-right: 1.5rem;
 }
-nav ul li {
-  margin-right: 2.5rem;
-}
-nav ul li a {
-  text-decoration: none;
+li a {
   color: chocolate;
 }
-nav ul li a:hover {
+li a:hover {
   color: cornflowerblue;
 }
 
@@ -55,7 +43,7 @@ nav ul li a:hover {
 
 .btn:hover {
   background: #27394e;
-  color: black;
+  color: darkcyan;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,20 +4,12 @@
   box-sizing: border-box;
 }
 
-#logosaltaods {
-  width: 200px;
-}
-
-.footer-container {
+.footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.social-icons a {
+.footer-bottom {
   margin-left: 10px;
-}
-
-.social-icons img {
-  width: 30px;
 }
