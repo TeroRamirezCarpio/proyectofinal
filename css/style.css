@@ -26,4 +26,13 @@ nav ul li a:hover {
   color: cornflowerblue;
 }
 
+.text {
+  color: #24a0ed;
+}
+
+button {
+  color: #24a0ed;
+  border: 1px solid #24a0ed;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,31 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-nav {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  ul {
-    list-style: none;
-    display: flex;
-
-    li {
-      margin-right: 2.5rem;
-
-      a {
-        text-decoration: none;
-        color: chocolate;
-
-        &:hover {
-          color: cornflowerblue;
-        }
-      }
-    }
-  }
-}
+@import "variables";
+@import "globals";
+@import "navbar";
+@import "index";
