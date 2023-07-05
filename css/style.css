@@ -4,6 +4,24 @@
   box-sizing: border-box;
 }
 
+#logosaltaods {
+  width: 200px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-icons a {
+  margin-left: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+}
+
 nav {
   height: 10vh;
   width: 100%;
@@ -30,9 +48,14 @@ nav ul li a:hover {
   color: #24a0ed;
 }
 
-button {
-  color: #24a0ed;
-  border: 1px solid #24a0ed;
+.btn {
+  cursor: pointer;
+  transition: 2seg;
+}
+
+.btn:hover {
+  background: #27394e;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

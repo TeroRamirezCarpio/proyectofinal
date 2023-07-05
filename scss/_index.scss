@@ -2,7 +2,12 @@
   color: $primary-color;
 }
 
-button {
-  color: $primary-color;
-  border: 1px solid $primary-color;
+.btn {
+  cursor: pointer;
+  transition: 2seg;
+}
+
+.btn:hover {
+  background: #27394e;
+  color: black;
 }
