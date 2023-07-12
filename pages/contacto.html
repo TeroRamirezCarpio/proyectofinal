@@ -78,44 +78,49 @@
       </div>
     </nav>
   </header>
-
-  <!-- Formulario -->
+<!-- Formulario -->
+  <div>
     <section>
-      <form action="">
-        <fieldset>
-          <legend>Contacto</legend>
-          <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" />
-          </div>
-          <div>
-            <label for="apellido">Apellido:</label>
-            <input type="text" name="apellido" />
-          </div>
-          Hombre
-          <input type="radio" name="sexo" value="Hombre" />
-          Mujer
-          <input type="radio" name="sexo" value="Mujer" />
+      <article>
+        <h1>Contactanos</h1>
+        <p>Aqui vas a poder dejar consultas sobre lo que necesites saber al respecto para que tu estadia en Salta sea perfecta.</p>
+      </article>
 
-          <div>
-            <label for="Edad">Edad:</label>
-            <select name="Edad" id="Edad" value="Edad">
-              <option value="18-35">18-35</option>
-              <option value="36-55">36-55</option>
-              <option value="56-65">56-65</option>
-            </select>
-          </div>
+      <div class="row">
+        <div class="col mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nombre/First name</label>
+          <input type="text" class="form-control" placeholder="Maximiliano" aria-label="Nombre/First name">
+        </div>
+        <div class="col mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Apellido/Last name</label>
+          <input type="text" class="form-control" placeholder="Ramirez Carpio" aria-label="Apellido/Last name">
+        </div>
+      </div> 
+      <div> 
+      <select class="form-select mb-3" aria-label="Cantidad de pasajeros">
+        <option selected>Números de pasajeros</option>
+        <option value="1">Uno/One</option>
+        <option value="2">Dos/Two</option>
+        <option value="3">Tres/Three</option>
+      </select>
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Celular/Phone Number</label>
+        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="54 9 387 4741157">
+      </div>
 
-          <textarea name="Mensaje" id="mensaje" cols="30" rows="10"> </textarea>
-          <div>
-            <input type="submit" value="Enviar" />
-            <input type="reset" value="Limpiar" />
-          </div>
-        </fieldset>
-      </form>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Correco Electronico/Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tucorreo@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Tu consulta/Your question:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
     </section>
-
-    <!--COMIENZA EL FOOTER-->
+  </div>
+  
+<!--COMIENZA EL FOOTER-->
     <footer class="footer pt-1 bg-dark">
       <div class="footer-sm text-white">
         <div class="container">
@@ -155,3 +160,42 @@
     ></script>
   </body>
 </html>
+
+
+
+
+  <!-- Formulario -->
+    <!-- <section>
+      <form action="">
+        <fieldset>
+          <legend>Contacto</legend>
+          <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" />
+          </div>
+          <div>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" />
+          </div>
+          Hombre
+          <input type="radio" name="sexo" value="Hombre" />
+          Mujer
+          <input type="radio" name="sexo" value="Mujer" />
+
+          <div>
+            <label for="Edad">Edad:</label>
+            <select name="Edad" id="Edad" value="Edad">
+              <option value="18-35">18-35</option>
+              <option value="36-55">36-55</option>
+              <option value="56-65">56-65</option>
+            </select>
+          </div>
+
+          <textarea name="Mensaje" id="mensaje" cols="30" rows="10"> </textarea>
+          <div>
+            <input type="submit" value="Enviar" />
+            <input type="reset" value="Limpiar" />
+          </div>
+        </fieldset>
+      </form>
+    </section> -->
