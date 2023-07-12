@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.bg-header {
+  background-image: url(../img/lunacerros.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 18.75rem;
+}
+
 .footer {
   display: flex;
   align-items: center;
