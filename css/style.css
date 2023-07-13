@@ -14,24 +14,6 @@
   margin-left: 10px;
 }
 
-nav {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-li {
-  margin-right: 1.5rem;
-}
-li a {
-  color: chocolate;
-}
-li a:hover {
-  color: cornflowerblue;
-}
-
 .text {
   color: #24a0ed;
 }
