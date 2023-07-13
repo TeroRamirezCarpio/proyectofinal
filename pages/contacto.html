@@ -17,6 +17,11 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
 
+    <!-- MI FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
     <!-- MI CSS -->
     <link rel="stylesheet" href="../css/style.css" />
 
@@ -64,42 +69,42 @@
       </nav>
     </header>
     <!-- Formulario -->
+  <section  class="mt-5 p-5">
     <div>
-      <section>
-        <section class="container">
-          <h1>Contactanos</h1>
-          <p>
+      <section class="container mb-5 cuerpo-contac rounded p-3">
+          <h1 class="titulo text-aling-center text-white">Contactanos</h1>
+          <p class="card-text text-white">
             Aqui vas a poder dejar consultas sobre lo que necesites saber al
             respecto para que tu estadia en Salta sea perfecta.
           </p>
         </section>
         <div class="container">
           <div>
-            <div class="mb-3">
+            <div class="mb-3 card-text">
               <label for="exampleFormControlInput1" class="form-label"
                 >Nombre/First name</label
               >
               <input
                 type="text"
-                class="form-control"
+                class="form-control card-text"
                 placeholder="Maximiliano"
                 aria-label="Nombre/First name"
               />
             </div>
-            <div class="col mb-3">
+            <div class="col mb-3 card-text">
               <label for="exampleFormControlInput1" class="form-label"
                 >Apellido/Last name</label
               >
               <input
                 type="text"
-                class="form-control"
+                class="form-control card-text"
                 placeholder="Ramirez Carpio"
                 aria-label="Apellido/Last name"
               />
             </div>
           </div>
           <div>
-            <select class="form-select mb-3" aria-label="Cantidad de huespedes">
+            <select class="form-select mb-3 card-text" aria-label="Cantidad de huespedes">
               <option selected>Números de huespedes</option>
               <option value="1">Uno/One</option>
               <option value="2">Dos/Two</option>
@@ -107,7 +112,7 @@
             </select>
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
+            <label for="exampleFormControlInput1" class="form-label card-text"
               >Celular/Phone Number</label
             >
             <input
@@ -118,7 +123,7 @@
             />
           </div>
 
-          <div class="mb-3">
+          <div class="mb-3 card-text">
             <label for="exampleFormControlInput1" class="form-label"
               >Correco Electronico/Email address</label
             >
@@ -129,7 +134,7 @@
               placeholder="tucorreo@example.com"
             />
           </div>
-          <div class="mb-3">
+          <div class="mb-3 card-text">
             <label for="exampleFormControlTextarea1" class="form-label"
               >Tu consulta/Your question:</label
             >
@@ -140,8 +145,10 @@
             ></textarea>
           </div>
         </div>
-      </section>
-    </div>
+      </div>    
+  </section>
+  
+  
 
     <a href="#" class="btn btndark mb-3 pb-2 border">Enviar</a>
 

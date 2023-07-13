@@ -14,13 +14,18 @@
     <!-- Iconos Bs -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
+    <!-- MI FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+
     <!-- MI CSS -->
     <link rel="stylesheet" href="../css/style.css" />
 
     <title>Reservas - Hospedaje en Salta</title>
   </head>
   <body>
-    <header>
+    <header class="bg-header">
         <!-- NAV BAR -->
       <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div class="container-fluid">
@@ -62,7 +67,15 @@
     </header>
 
     <!-- Seccion OPINIONES -->
-    <h2 class="text-center text-dark mt-4">Que dicen nuestros clientes...</h2>
+        <section class="p-5" >
+      <div class="container cuerpo-contac rounded p-4 mt-5 text-center">
+        <h1 class="titulo text-aling-center text-white">Que opinan nuestros clientes...</h1>
+        <p class="card-text text-white">
+          Aqui encontraras las distintas opiniones que realizan los huespedes en las distintas apps.
+        </p>
+      </div>
+      </section>
+
     <section id="opiniones" class="p-3 bg succes">
       <div class="container ">
         <div class="row g-4">
@@ -70,8 +83,8 @@
             <div class="card bg-ligth">
               <div class="card-body text-center">
                 <img src="../img/juan.jpg" alt="" class="img-fluid d-none d-sm-block rounded-circle mb-2" />
-                <h4 class="card-title mb-3">Juan Bruno</h4>
-                <p class="card-text">
+                <h4 class="card-title mb-3 titulo">Juan Bruno</h4>
+                <p class="card-text texto">
                   ¡Este es el mejor apartamento de Salta! El apartamento es luminoso, nuevo y muy limpio. Tiene todo para vivir cómodamente. Desde la terraza hay una vista impresionante de la iglesia. La ubicación es muy buena, cerca del centro. ¡El anfitrión es la persona más agradable! ¡100% recomendable! ¡Queremos volver aquí de nuevo!
                 </p>
                 <i class="bi bi-star-fill mx-1"></i>
@@ -89,7 +102,7 @@
               <div class="card bg-body-tertiary">
                 <div class="card-body text-center">
                   <img src="../img/lorena.jpg" alt="" class="img-fluid d-none d-sm-block rounded-circle mb-2" />
-                  <h4 class="card-title mb-3">Lorenza Salomone</h4>
+                  <h4 class="card-title mb-3 titulo">Lorenza Salomone</h4>
                   <p class="card-text">
                     Maximiliano es un excelente anfitrión; nos dio muy buenas recomendaciones. El apartamento es mucho mejor de lo que parecen las fotos. Se encuentra en un lugar céntrico, cerca de las calles peatonales…
                   </p>
@@ -108,7 +121,7 @@
           <div class="card bg-ligth">
             <div class="card-body text-center">
               <img src="../img/alejandro.jpg" alt="" class="img-fluid d-none d-sm-block rounded-circle mb-2" />
-              <h4 class="card-title mb-3">Alejando Podzun</h4>
+              <h4 class="card-title mb-3 titulo">Alejando Podzun</h4>
               <p class="card-text">
                 Apartamento muy amplio, moderno y limpio. La cocina tenía todo lo que necesitábamos para cocinar con un supermercado decente a unos 5 minutos a pie. Centro de Salta a solo 10 minutos caminando. El anfitrión se comunicó bien y fue muy útil.
               </p>
@@ -125,7 +138,7 @@
   </section>
 
   <!-- Reservas -->
-  <h2 class="text-center text-dark mt-4 mb-5">Reservas</h2>
+  <h2 class="text-center text-dark mt-4 mb-5 titulo">Reservas</h2>
   <section class="container">
     <div class="row">
     <button class="mb-2">Check in</button>

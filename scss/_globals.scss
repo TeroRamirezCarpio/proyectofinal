@@ -4,12 +4,17 @@
   box-sizing: border-box;
 }
 
+.titulo {
+  font-family: "Acme", sans-serif;
+}
+
+.card-text {
+  font-family: "Baloo 2", cursive;
+}
+
 .bg-header {
   background-image: url(../img/lunacerros.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 18.75rem;
+  image-rendering: optimizeSpeed;
 }
 
 .footer {

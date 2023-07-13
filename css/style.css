@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+.titulo {
+  font-family: "Acme", sans-serif;
+}
+
+.card-text {
+  font-family: "Baloo 2", cursive;
+}
+
+.bg-header {
+  background-image: url(../img/lunacerros.jpg);
+  image-rendering: optimizeSpeed;
+}
+
 .footer {
   display: flex;
   align-items: center;
@@ -26,6 +39,14 @@
 .btn:hover {
   background: #27394e;
   color: darkcyan;
+}
+
+.cuerpo-contac {
+  background-color: #3b2b31;
+}
+
+#opiniones {
+  align-self: center;
 }
 
 /*# sourceMappingURL=style.css.map */
