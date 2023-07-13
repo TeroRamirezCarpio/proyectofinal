@@ -25,105 +25,127 @@
   <body>
     <header class="bg-header">
       <!-- NAV BAR -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">Home<span class="text-primary">Travel</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav ms-auto my-4 my-lg-0 navbar-nav-scroll"
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Home<span class="text-primary">Travel</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
           >
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="reservas.html">Reservas</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Lugares Recomendados
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="lugaresrecomendados.html">Restaurantes</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="lugaresrecomendados.html">Museos</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="lugaresrecomendados.html">Excursiones</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="galeria.html">Galeria</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="contacto.html">Contactanos</a>
-            </li>
-          </ul>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav ms-auto my-4 my-lg-0 navbar-nav-scroll"
+            >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reservas.html">Reservas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="lugaresrecomendados.html">Lugares Recomendados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="contacto.html">Contactanos</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
-<!-- Formulario -->
-  <div>
-    <section>
-      <section class="container">
+      </nav>
+    </header>
+    <!-- Formulario -->
+    <div>
+      <section>
+        <section class="container">
           <h1>Contactanos</h1>
-          <p>Aqui vas a poder dejar consultas sobre lo que necesites saber al respecto para que tu estadia en Salta sea perfecta.</p>
+          <p>
+            Aqui vas a poder dejar consultas sobre lo que necesites saber al
+            respecto para que tu estadia en Salta sea perfecta.
+          </p>
+        </section>
+        <div class="container">
+          <div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Nombre/First name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Maximiliano"
+                aria-label="Nombre/First name"
+              />
+            </div>
+            <div class="col mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Apellido/Last name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Ramirez Carpio"
+                aria-label="Apellido/Last name"
+              />
+            </div>
+          </div>
+          <div>
+            <select class="form-select mb-3" aria-label="Cantidad de huespedes">
+              <option selected>Números de huespedes</option>
+              <option value="1">Uno/One</option>
+              <option value="2">Dos/Two</option>
+              <option value="3">Tres/Three</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Celular/Phone Number</label
+            >
+            <input
+              type="number"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="54 9 387 4741157"
+            />
+          </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Correco Electronico/Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="tucorreo@example.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Tu consulta/Your question:</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
       </section>
-    <div class="container">
-      <div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Nombre/First name</label>
-          <input type="text" class="form-control" placeholder="Maximiliano" aria-label="Nombre/First name">
-        </div>
-        <div class="col mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Apellido/Last name</label>
-          <input type="text" class="form-control" placeholder="Ramirez Carpio" aria-label="Apellido/Last name">
-        </div>
-      </div> 
-      <div> 
-      <select class="form-select mb-3" aria-label="Cantidad de huespedes">
-        <option selected>Números de huespedes</option>
-        <option value="1">Uno/One</option>
-        <option value="2">Dos/Two</option>
-        <option value="3">Tres/Three</option>
-      </select>
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Celular/Phone Number</label>
-        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="54 9 387 4741157">
-      </div>
-
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Correco Electronico/Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tucorreo@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Tu consulta/Your question:</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
     </div>
-    </section>
-  </div>
-  
-  <a href="#" class="btn btndark mb-3 pb-2 border">Enviar</a>
 
-<!--COMIENZA EL FOOTER-->
+    <a href="#" class="btn btndark mb-3 pb-2 border">Enviar</a>
+
+    <!--COMIENZA EL FOOTER-->
     <footer class="footer pt-1 bg-dark">
       <div class="footer-sm text-white">
         <div class="container">
@@ -164,11 +186,8 @@
   </body>
 </html>
 
-
-
-
-  <!-- Formulario -->
-    <!-- <section>
+<!-- Formulario -->
+<!-- <section>
       <form action="">
         <fieldset>
           <legend>Contacto</legend>
